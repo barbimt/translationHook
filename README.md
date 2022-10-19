@@ -6,7 +6,9 @@ La aplicación es una base de datos, hecha por Rick, la cual mantiene un registr
 
 Además cuenta con algunos filtros para hacer más fácil la búsqueda, junto con un historial de visualizaciones de personajes.  
 
-
+## Resolución del ejercicio: 
+- Creación del context para englobar el estado del lenguage y la función translate
+- Creación de un nuevo hook -> useLanguage 
 
 ## Available Scripts
 

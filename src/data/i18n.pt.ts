@@ -4,7 +4,9 @@ const ptTranslations: Record<string, string> = {
   'language.portuguese': 'Português',
   'language.english': 'Inglês',
   'navigation.home': 'Inicio',
-  'navigation.following': 'Seguido'
+  'navigation.following': 'Seguido',
+  'navigation.next': 'Próximo',
+  'navigation.previous': 'Anterior'
 };
 
 export default ptTranslations;

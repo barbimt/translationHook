@@ -1,15 +1,20 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
+
 import { locationReducer, locationsApi } from 'features/locations';
 import { charactersApi } from 'features/characters';
 import { followingReducer } from 'features/following';
+
 
 const rootReducer = combineReducers({
   [charactersApi.reducerPath]: charactersApi.reducer,
   [locationsApi.reducerPath]: locationsApi.reducer,
   //
   locations: locationReducer,
-  following: followingReducer
+  following: followingReducer,
+ 
 });
+
+
 
 export const store = configureStore({
   reducer: rootReducer,
@@ -23,3 +28,5 @@ export const store = configureStore({
 export type RootState = ReturnType<typeof store.getState>;
 // Tipo inferido: {pokemon: PokemonState}
 export type AppDispatch = typeof store.dispatch;
+
+

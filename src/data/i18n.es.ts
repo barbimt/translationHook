@@ -4,7 +4,9 @@ const esTranslations: Record<string, string> = {
   'language.portuguese': 'Portugués',
   'language.english': 'Inglés',
   'navigation.home': 'Inicio',
-  'navigation.following': 'Siguiendo'
+  'navigation.following': 'Siguiendo',
+  'navigation.next': 'Siguiente',
+  'navigation.previous': 'Anterior'
 };
 
 export default esTranslations;
